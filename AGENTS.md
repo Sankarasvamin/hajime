@@ -5,7 +5,9 @@
 - App entry and routing: `argentum/HAJIME/src/main.js`, `argentum/HAJIME/src/router/`.
 - UI units: `argentum/HAJIME/src/components/`; page-level views: `argentum/HAJIME/src/views/`.
 - Static assets: `argentum/HAJIME/public/` and `argentum/HAJIME/src/assets/`.
-- Repository root also contains standalone Python practice scripts (for example `training.py`, `nowai.py`); keep app-related changes scoped to `argentum/HAJIME`.
+- Python practice scripts are centralized in `exercises/` (for example `exercises/training.py`, `exercises/nowai.py`).
+- Codeforces/algorithm problem solutions are centralized in `cf_solutions/` (for example `cf_solutions/team.py`, `cf_solutions/watermelon.py`).
+- Backend API and tests live in `server/`; keep `server/` and `argentum/` structures unchanged when reorganizing other files.
 
 ## Build, Test, and Development Commands
 Run commands from `argentum/HAJIME`:
